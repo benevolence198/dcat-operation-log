@@ -1,6 +1,6 @@
 <?php
 
-namespace Benevolences\Dcat\Admin\OperationLog\Http\Middleware;
+namespace Benevolences\DcatOperationLog\Http\Middleware;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\OperationLog\Models\OperationLog as OperationLogModel;

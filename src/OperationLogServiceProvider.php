@@ -1,6 +1,6 @@
 <?php
 
-namespace Benevolences\Dcat\Admin\OperationLog;
+namespace Benevolences\DcatOperationLog;
 
 use Dcat\Admin\Extend\ServiceProvider;
 use Dcat\Admin\OperationLog\Http\Middleware\LogOperation;

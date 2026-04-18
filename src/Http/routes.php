@@ -1,6 +1,6 @@
 <?php
 
-use Dcat\Admin\OperationLog\Http\Controllers;
+use Benevolences\DcatOperationLog\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 Route::get('auth/operation-logs', Controllers\LogController::class.'@index')->name('dcat-admin.operation-log.index');

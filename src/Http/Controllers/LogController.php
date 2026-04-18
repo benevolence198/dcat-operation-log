@@ -1,6 +1,6 @@
 <?php
 
-namespace Benevolences\Dcat\Admin\OperationLog\Http\Controllers;
+namespace Benevolences\DcatOperationLog\Http\Controllers;
 
 use Dcat\Admin\Grid;
 use Dcat\Admin\Http\JsonResponse;

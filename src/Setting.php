@@ -1,6 +1,6 @@
 <?php
 
-namespace Benevolences\Dcat\Admin\OperationLog;
+namespace Benevolences\DcatOperationLog;
 
 use Dcat\Admin\Extend\Setting as Form;
 use Dcat\Admin\OperationLog\Models\OperationLog;

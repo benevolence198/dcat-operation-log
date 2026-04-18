@@ -1,6 +1,6 @@
 <?php
 
-namespace Benevolences\Dcat\Admin\OperationLog\Models;
+namespace Benevolences\DcatOperationLog\Models;
 
 use Dcat\Admin\Traits\HasDateTimeFormatter;
 use Illuminate\Database\Eloquent\Model;
