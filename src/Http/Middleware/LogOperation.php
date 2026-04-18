@@ -3,7 +3,7 @@
 namespace Benevolences\DcatOperationLog\Http\Middleware;
 
 use Dcat\Admin\Admin;
-use Dcat\Admin\OperationLog\Models\OperationLog as OperationLogModel;
+use Benevolences\DcatOperationLog\Models\OperationLog as OperationLogModel;
 use Dcat\Admin\OperationLog\OperationLogServiceProvider;
 use Dcat\Admin\Support\Helper;
 use Illuminate\Http\Request;
@@ -77,7 +77,9 @@ class LogOperation
      */
     protected function setting($key, $default = null)
     {
-        return OperationLogServiceProvider::setting($key, $default);
+        $extension = Admin::extension()->get('benevolences.dcat-operation-log');
+
+        return $extension ? $extension->config($key, $default) : $default;
     }
 
     /**

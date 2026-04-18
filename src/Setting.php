@@ -3,7 +3,7 @@
 namespace Benevolences\DcatOperationLog;
 
 use Dcat\Admin\Extend\Setting as Form;
-use Dcat\Admin\OperationLog\Models\OperationLog;
+use Benevolences\DcatOperationLog\Models\OperationLog;
 use Dcat\Admin\Support\Helper;
 
 class Setting extends Form

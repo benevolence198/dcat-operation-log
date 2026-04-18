@@ -3,7 +3,7 @@
 namespace Benevolences\DcatOperationLog;
 
 use Dcat\Admin\Extend\ServiceProvider;
-use Dcat\Admin\OperationLog\Http\Middleware\LogOperation;
+use Benevolences\DcatOperationLog\Http\Middleware\LogOperation;
 
 class OperationLogServiceProvider extends ServiceProvider
 {
