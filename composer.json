@@ -21,10 +21,10 @@
     }
   },
   "extra": {
-    "dcat-admin": "Benevolences\\Dcat\\Admin\\OperationLog\\OperationLogServiceProvider",
+    "dcat-admin": "Benevolences\\DcatOperationLog\\OperationLogServiceProvider",
     "laravel": {
       "providers": [
-        "Benevolences\\Dcat\\Admin\\OperationLog\\OperationLogServiceProvider"
+        "Benevolences\\DcatOperationLog\\OperationLogServiceProvider"
       ]
     }
   }
