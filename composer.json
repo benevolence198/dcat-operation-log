@@ -1,0 +1,31 @@
+{
+  "name": "benevolences/dcat-operation-log",
+  "description": "Dcat Admin 操作日志扩展",
+  "type": "library",
+  "keywords": ["dcat-admin", "extension"],
+  "homepage": "https://github.com/dcat-admin/operation-log",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "benevolence",
+      "email": "178556289@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "benevolences/laravel-admin": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Benevolences\\DcatOperationLog\\": "src/"
+    }
+  },
+  "extra": {
+    "dcat-admin": "Benevolences\\Dcat\\Admin\\OperationLog\\OperationLogServiceProvider",
+    "laravel": {
+      "providers": [
+        "Benevolences\\Dcat\\Admin\\OperationLog\\OperationLogServiceProvider"
+      ]
+    }
+  }
+}
