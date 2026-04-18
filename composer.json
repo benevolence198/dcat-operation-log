@@ -3,7 +3,7 @@
   "description": "Dcat Admin 操作日志扩展",
   "type": "library",
   "keywords": ["dcat-admin", "extension"],
-  "homepage": "https://github.com/dcat-admin/operation-log",
+  "homepage": "https://github.com/benevolence198/dcat-operation-log",
   "license": "MIT",
   "authors": [
     {
